@@ -16,7 +16,7 @@ ENV COMPOSER_ALLOW_SUPERUSER=1  \
     OJS_CONF="/var/www/html/config.inc.php" \
     PACKAGES="supervisor dcron apache2 apache2-ssl apache2-utils php7 php7-fpm php7-cli php7-apache2 php7-zlib \
              php7-json php7-mbstring php7-tokenizer php7-simplexml php7-phar php7-openssl php7-curl php7-mcrypt php7-pdo_mysql php7-mysqli php7-session php7-ctype \
-             php7-gd php7-xml php7-dom php7-iconv curl nodejs git" \
+             php7-gd php7-xml php7-dom php7-iconv curl nodejs git bash coreutils tar antiword java-common poppler-utils perl ghostscript" \
     EXCLUDE="dbscripts/xml/data/locale/en_US/sample.xml     \
             dbscripts/xml/data/sample.xml					\
             docs/dev										\
